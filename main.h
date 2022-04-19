@@ -13,8 +13,8 @@
  */
 typedef struct st_fmt
 {
-  char *fmt;
-  int (*func)(va_list list);
+	char *fmt;
+	int (*func)(va_list list);
 } st_fmt;
 
 int _printf(const char *format, ...);
